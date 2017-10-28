@@ -1,6 +1,8 @@
 // postcss: doplneni prefixu atd. do CSS
 // -------------------------------------
 
+'use strict';
+
 module.exports = {
   options: {
     map: true,

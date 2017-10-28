@@ -1,9 +1,11 @@
 // watch: sledovani zmen v souborech
 // ---------------------------------
 
+'use strict';
+
 module.exports = {
   sass: {
-    files: 'src/scss/**/*.scss',
+    files: 'src/less/**/*.less',
     tasks: ['css']
   }
-}
+};

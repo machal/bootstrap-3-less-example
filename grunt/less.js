@@ -1,5 +1,7 @@
-// sass: kompilace do CSS
+// LESS: kompilace do CSS
 // ----------------------
+
+'use strict';
 
 module.exports = {
   dist: {
@@ -7,7 +9,7 @@ module.exports = {
   	    sourceMap: true
   	},
     files: {
-      'dist/css/style.css': ['src/scss/index.scss']	
+      'dist/css/style.css': ['src/less/index.less']
     }
   }
 };

@@ -1,6 +1,8 @@
 // browserSync: sledovani zmen v souborech
 // ---------------------------------------
 
+'use strict';
+
 module.exports = {
 	dev: {
 	    bsFiles: {
@@ -9,8 +11,11 @@ module.exports = {
 	    options: {
 	        watchTask: true,
 	        server: {
-            	baseDir: "./"
+            	baseDir: './'
           }
 	    }
 	}
-}
+};
+
+
+
